@@ -410,4 +410,8 @@ a {
     width: 100%;
     height: auto;
   }
+
+  .features__card {
+    margin: 20px;
+  }
 }
