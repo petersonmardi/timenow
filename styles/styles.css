@@ -297,6 +297,33 @@ footer {
   margin-bottom: 8px;
 }
 
+.email__wrapper {
+  border: solid 1px var(--text);
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+  padding-right: 5px;
+}
+
+.email__wrapper input {
+  border: none;
+}
+
+.email__wrapper button {
+  width: 196px;
+  height: 63px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--marine);
+}
+
+.email__wrapper input, .email__wrapper button {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /* Tablet */
 
 @media only screen and (max-width: 1280px) {
