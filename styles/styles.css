@@ -260,6 +260,43 @@ a {
   margin-left: 150px;
 }
 
+footer {
+  margin: 80px 150px;
+}
+
+.footer__wrapper, .footer__links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__wrapper {
+  justify-content: space-between;
+}
+
+.footer__links {
+  margin-top: 32px;
+}
+
+.footer__links p, .email p {
+  color: var(--black);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.email {
+  margin-top: 32px;
+}
+
+.product, .help, .company {
+  display: flex;
+  flex-direction: column;
+  margin-right: 92px;
+}
+
+.product a, .help a, .company a {
+  margin-bottom: 8px;
+}
+
 /* Tablet */
 
 @media only screen and (max-width: 1280px) {
