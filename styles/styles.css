@@ -75,6 +75,7 @@ a {
   width: 12.25rem;
   height: 3.9375rem;
   background-color: var(--marine);
+  padding: 18px 24px 18px 24px;
 }
 
 .cta a {
@@ -104,7 +105,6 @@ a {
 .hero__right__side {
   margin-top: 8.22rem;
   margin-right: 3.54rem;
-  /* border: blue 1px solid; */
 }
 
 .hero__right__side h1 {
@@ -113,7 +113,6 @@ a {
   font-size: 3.36rem;
   color: var(--marine);
   margin-bottom: 8px;
-  /* border: green 1px solid; */
 }
 
 .hero__right__side p {  
@@ -127,13 +126,9 @@ a {
 .schedule {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
   padding: 0;
   
   margin-bottom: 1.5rem;
-
-  /* border: solid 1px red; */
-
 }
 
 .demo {
@@ -144,7 +139,6 @@ a {
   height: 3.9375rem;
   margin-left: 1rem;
   border-radius: 5px;
-  /* border: solid 1px pink; */
 }
 
 .demo a {
@@ -173,15 +167,11 @@ a {
   margin-left: 9.375rem;
   margin-top: 2.75rem;
   margin-bottom: 5rem;
-
-  /* border: solid 1px purple; */
 }
 
 .title__avatars {
   display: flex;
   flex-direction: column;
-
-  /* border: solid 1px pink; */
 }
 
 .social__proof .title__avatars .title {
@@ -199,10 +189,6 @@ a {
   font-weight: 700;
 }
 
-/* .avatars {
-  border: solid 1px brown;
-} */
-
 .social__text {
   display: flex;
   flex-direction: column;
@@ -210,8 +196,6 @@ a {
   width: 493px;
   height: 162px;
   margin-left: 109px;
-
-  /* border: solid 1px green; */
 }
 
 .social__text p {
@@ -260,6 +244,10 @@ a {
   margin-left: 150px;
 }
 
+.f__card2 {
+  margin-right: 150px;
+}
+
 footer {
   margin: 80px 150px;
 }
@@ -298,16 +286,22 @@ footer {
 }
 
 .email__wrapper {
+  display: flex;
+  flex-direction: row;
   border: solid 1px var(--text);
   border-radius: 5px;
+
   padding-top: 6px;
   padding-bottom: 7px;
   padding-left: 25px;
   padding-right: 5px;
+
+  width: fit-content;
 }
 
 .email__wrapper input {
   border: none;
+  outline: none;
 }
 
 .email__wrapper button {
@@ -317,6 +311,7 @@ footer {
   border: none;
   border-radius: 5px;
   background-color: var(--marine);
+  cursor: pointer;
 }
 
 .email__wrapper input, .email__wrapper button {
@@ -350,10 +345,6 @@ footer {
     flex-direction: column;
     text-align: center;
   }
-/* 
-  .demo {
-    margin-left: 1.875rem;
-  } */
 
   .social__proof {
     flex-direction: column;
@@ -381,6 +372,16 @@ footer {
 
   .features__card {
     margin: 40px;
+  }
+
+  footer {
+    margin-top: 54px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
   }
 }
 
@@ -440,8 +441,6 @@ footer {
   }
 
   .demo {
-    /* margin-left: 1.875rem;
-    width: 8.625rem; */
     width: 8rem;
   }
 
@@ -464,12 +463,6 @@ footer {
     flex-direction: column;
   }
 
-  /* .avatars { */
-    /* width: 21.25rem; */
-    /* width: -moz-fit-content; */
-    /* height: 6.75rem; */
-  /* } */
-
   .social__text {
     width: 100%;
     height: auto;
@@ -478,4 +471,26 @@ footer {
   .features__card {
     margin: 20px;
   }
+
+  footer {
+    margin-top: 37px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  .footer__links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    gap: 20px;
+  }
+
+  .footer__links .help {
+    width: 100%;
+  }
+
+  .email__wrapper input {
+    width: 121px;
+  }
+
 }
